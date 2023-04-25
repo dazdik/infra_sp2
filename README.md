@@ -64,7 +64,7 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-💥 Теперь проект доступен по адресу http://localhost/
+💥 Теперь проект доступен по адресу http://localhost/admin/
 
 6. Заполнить базу данными:
 ```
